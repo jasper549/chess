@@ -37,15 +37,15 @@ function startGameAsPlayer(){
     document.getElementById('gameArea').style.display='block';
     playNewGame();
 }
+
 function startGameAsBot(){
     vsBot=true;
     document.getElementById('mainMenu').style.display='none';
     document.getElementById('gameArea').style.display='block';
     playNewGame();
 }
+
 function goToHome(){ location.reload(); }
-
-
 
 async function playNewGame(){
     game.reset();
@@ -74,7 +74,6 @@ async function playNewGame(){
     await maybeEngineMove();
     }
 }
-
 
 function currentTurnColor() {
     return game.turn();
