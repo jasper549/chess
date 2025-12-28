@@ -5,7 +5,7 @@ from flask_cors import CORS
 print("BACKEND FILE LOADED")
 
 # Import chess business logic
-from chess import ChessSessionManager
+from backend import ChessSessionManager
 
 # Initialize Flask app
 app = Flask(__name__)
