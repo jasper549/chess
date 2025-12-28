@@ -29,7 +29,7 @@ let vsBot = false;
 let selectedSquare = null;
 let engineThinking = false;
 
-const backendURL = "http://127.0.0.1:5000";
+const backendURL = "https://chess-aphvdfa5cxfsc8g0.westus2-01.azurewebsites.net";
 
 function startGameAsPlayer(){
     vsBot=false;
